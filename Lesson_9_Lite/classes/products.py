@@ -35,7 +35,7 @@ class Clothing(Product):
     def get_details(self):
         return f"Одежда: {self.name}, Размер: {self.size}, Материал: {self.material}, Цена: {self.price} руб."
     
-class Household_chemicals(Product):
+class HouseholdСhemicals(Product):
     """
     Класс, представляющий бытовую химию, наследующий класс Product.
     """
