@@ -12,13 +12,13 @@ class Order():
     def total_orders(cls):
         return cls._total_orders
     
-    def order_price(self):
-        return sum(product.price for product in self.products)
-    
     @classmethod
     def total_price(cls):
         return cls._total_price
-    
+
+    def order_price(self):
+        return sum(product.price for product in self.products)
+      
     def __str__(self):
         return f'Заказ: (Номер заказа={self.id}, Цена заказа={self.order_price()})'
     

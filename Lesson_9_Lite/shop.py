@@ -1,4 +1,4 @@
-from classes.products import Electronics, Clothing, Household_chemicals
+from classes.products import Electronics, Clothing, HouseholdСhemicals
 from classes.users import Customer, Admin
 from classes.shoping_carts import ShoppingCart
 
@@ -6,7 +6,7 @@ from classes.shoping_carts import ShoppingCart
 # Создаем продукты
 laptop = Electronics(name="Ноутбук", price=120000, brand="Dell", warranty_period=2)
 tshirt = Clothing(name="Футболка", price=200, size="M", material="Хлопок")
-shampoo = Household_chemicals(name="Шампунь", price=400, brand="Pantin")
+shampoo = HouseholdСhemicals(name="Шампунь", price=400, brand="Pantin")
 
 # Создаем пользователей
 customer = Customer(username="Mikhail", email="python@derkunov.ru", address="033 Russ Bur")
