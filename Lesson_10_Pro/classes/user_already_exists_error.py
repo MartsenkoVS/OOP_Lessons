@@ -1,5 +1,5 @@
 class UserAlreadyExistsError(Exception):
-    def __init__(self, username, message='Такой пользователь уже есть в базе'):
+    def __init__(self, username: str, message='Такой пользователь уже есть в базе'):
         self.username = username
         self.message = message
         super().__init__(self.message)
