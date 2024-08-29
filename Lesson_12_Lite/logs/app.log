@@ -1,0 +1,36 @@
+2024-08-29 23:21:00,878 - root - INFO - В директории /home/vitaliy/Python/OOP_Lessons/Lesson_12_Lite/ создана директория data/
+2024-08-29 23:21:00,878 - root - INFO - В директории /home/vitaliy/Python/OOP_Lessons/Lesson_12_Lite/ создана директория backups/
+2024-08-29 23:21:00,878 - root - INFO - В директории /home/vitaliy/Python/OOP_Lessons/Lesson_12_Lite/ создана директория output/
+2024-08-29 23:21:00,878 - root - INFO - В директории data/ создана директория raw/
+2024-08-29 23:21:00,879 - root - INFO - В директории data/ создана директория processed/
+2024-08-29 23:21:00,879 - root - INFO - В директории data/raw/ создан файл file_1.txt
+2024-08-29 23:21:00,880 - root - INFO - В директории data/raw/ создан файл file_2.txt
+2024-08-29 23:21:00,880 - root - INFO - В директории data/processed/ создан файл file_2_processed.txt
+2024-08-29 23:21:00,882 - root - INFO - В директории data/processed/ создан файл file_1_processed.txt
+2024-08-29 23:21:00,882 - root - INFO - В директории output/ создан файл processed_data.json
+2024-08-29 23:21:00,886 - root - INFO - Директория data/ заархивирована, архив добавлен в директорию backups/
+2024-08-29 23:21:00,889 - root - INFO - Из директории backups разархивирован backup_2024-08-29.zip в директорию backup_2024-08-29
+2024-08-29 23:21:00,891 - root - INFO - В директории output/ создан файл processed_data_2.json
+2024-08-29 23:21:00,915 - root - ERROR - Файл не прошел валидацию, ошибка:'name' is a required property
+
+Failed validating 'required' in schema['properties']['files']['items']:
+    {'properties': {'abs_path': {'type': 'string'},
+                    'create_date': {'format': 'date-time',
+                                    'type': 'string'},
+                    'last_change_date': {'format': 'date-time',
+                                         'type': 'string'},
+                    'name': {'type': 'string'},
+                    'size': {'type': 'integer'}},
+     'required': ['name',
+                  'abs_path',
+                  'size',
+                  'create_date',
+                  'last_change_date'],
+     'type': 'object'}
+
+On instance['files'][0]:
+    {'abs_path': '/home/vitaliy/Python/OOP_Lessons/Lesson_12_Lite/data/processed/file_2_processed.txt',
+     'create_date': 'Thu Aug 29 23:21:00 2024',
+     'last_change_date': 'Thu Aug 29 23:21:00 2024',
+     'size': 9}
+2024-08-29 23:21:00,915 - root - INFO - В директории output/ создан файл processed_data_2.json

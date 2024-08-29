@@ -1,0 +1,16 @@
+{
+    "file_1": {
+        "name": "file_2_processed.txt",
+        "text": "text file",
+        "processed_text": "TEXT FILE",
+        "size": 9,
+        "last_change_date": "Thu Aug 29 23:21:00 2024"
+    },
+    "file_2": {
+        "name": "file_1_processed.txt",
+        "text": "Текстовый файл",
+        "processed_text": "тЕКСТОВЫЙ ФАЙЛ",
+        "size": 27,
+        "last_change_date": "Thu Aug 29 23:21:00 2024"
+    }
+}

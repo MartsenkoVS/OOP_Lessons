@@ -1,0 +1,42 @@
+[
+    {
+        "task_number": 1,
+        "dificultades": "Нужно было придумать, как сформировать структуру для создания директорий, чтобы пройтись по ней циклом",
+        "soluciones": "Создал список со словарями, где ключ это родительская директория, а значение - список с поддиректориями",
+        "time_to_complite": {
+            "time": 1,
+            "format": "hour"
+        },
+        "improvements": "Обернуть код в функцию с атрибутом structure_list (структура директорий в проекте)"
+    },
+    {
+        "task_number": 2,
+        "dificultades": "При сохранении текста с кодировкой ISO-8859-1 в json файле отображалась кодировка, а не сам текст",
+        "soluciones": "В методе json.dump() добавил параметр ensure_ascii=False",
+        "time_to_complite": {
+            "time": 1,
+            "format": "hour"
+        },
+        "improvements": "Обернуть код в функцию с атрибутами files_list (инфо о файлах) и dir (директория, куда записать файлы)"
+    },
+    {
+        "task_number": 3,
+        "dificultades": null,
+        "soluciones": null,
+        "time_to_complite": {
+            "time": 15,
+            "format": "minutes"
+        },
+        "improvements": "Обернуть код в функцию с атрибутами archive_path (куда сохранять архив) и dir (директория, которую архивируем)"
+    },
+    {
+        "task_number": 4,
+        "dificultades": "Формат моего json файла отличался файла в лекции, не знал, как в json схеме указать элементы массива",
+        "soluciones": "Спросил у ChatGPT, добавил поле items в схему",
+        "time_to_complite": {
+            "time": 1,
+            "format": "hour"
+        },
+        "improvements": "Обернуть код валидации json в функцию с атрибутами json_file и json_schema"
+    }
+]
